@@ -1,0 +1,64 @@
+1.Introduction to HTML
+
+HyperText Markup Language
+It is not a programming language, it's a markup language
+<body> ,<p>
+
+
+Defines elements like:
+
+headings
+paragraphs
+images
+links
+
+Browser reads HTML and renders UI
+
+
+2.HTML Basic Structure
+
+3. Headings (h1 – h6)
+
+4.Paragraph & Text Formatting
+
+5. Anchor Tag (Links)
+
+6. Image Tag
+
+7. Lists
+
+8.Div & Span
+
+9.Semantic Tags
+
+Benefits:
+SEO friendly
+Better readability
+Accessibility improved
+
+
+10. Forms
+
+11. Input Types
+
+12. Basic Attributes
+
+Attribute	    Use
+id	            unique
+class	        reusable
+src	            image source
+href	        link
+alt	            image text
+
+
+
+<video>
+
+<iframe>
+
+<audio>
+
+
+
+
+
