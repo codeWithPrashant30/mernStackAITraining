@@ -1,0 +1,83 @@
+CSS (Cascading Style Sheets)
+CSS (Cascading Style Sheets) is used to style HTML elements.
+
+p {
+    color:red
+}
+
+ 2.CSS Syntax
+
+ selector {
+  property: value;
+}
+
+
+3. Types of CSS
+Three types se CSS include kar sakte hai
+
+1.inline CSS
+2.internal CSS
+3.External css
+
+4. Selectors
+
+Universal Selector
+
+* { margin: 0; }
+
+Element Selector p. h1, h2 , section
+
+ID Selector. #
+
+class selector .parent {
+
+}
+
+Group Selector
+
+Attribute Selector
+
+input[type="text"] { border: 1px solid; }
+
+Pseudo Classes
+
+Pseudo Elements
+
+Box Model
+
+
+Units & Sizing
+
+Unit	Meaning
+px	Fixed
+%	Relative
+em	Parent-based
+rem	Root-based. -   html { font-size:14px; 2rem  = 14*2 = 28}
+vw	Viewport width
+vh	Viewport height
+
+Colors & Background
+
+color:red
+background:red;
+background-color
+background-image 
+
+Typography
+
+p {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+9. Display & Visibility
+10.Positioning
+11.Flexbox
+12.Grid
+13.Overflow & Z-index
+14. Responsive Design
+15. Transitions & Animations
+16. CSS Variables
+17.Shadows

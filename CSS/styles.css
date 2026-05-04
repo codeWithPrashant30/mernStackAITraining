@@ -1,0 +1,56 @@
+/* global css */
+
+/* Universal Selector */
+
+* { margin: 0; }
+
+
+/* Element Selector */
+
+h1 {
+     font-size: 50px;
+}
+
+.main-section-web {
+    background-color: gray;
+    width: 300px;
+    border:1px solid #ccc;
+    padding: 10px;
+}
+.main-section-web, h1, p, a {
+    color:#fff;
+} 
+
+.main-section-web:hover {
+    background-color: pink;
+    border:1px solid red;
+}
+
+
+.main-section-web::before { content: "🔥"; }
+
+input[type="text"], input[type="password"] { 
+  border: 2px solid red ; 
+}
+
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: burlywood;
+}
+
+.parent {
+    width: 400px;
+    background-color: burlywood;
+}
+.child {
+  width: 50%;
+}
+
+.parent {
+  font-size: 20px;
+}
+.child {
+  font-size: 2em;
+}
