@@ -73,7 +73,27 @@ p {
 }
 
 9. Display & Visibility
+
+display: block; | div , section , p,  article
+display: inline; . a  | span
+display: inline-block; 
+
+display: none;
+
+visibility: hidden;
+
+
 10.Positioning
+
+position: static;  // by default
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+
+
+
+
 11.Flexbox
 12.Grid
 13.Overflow & Z-index

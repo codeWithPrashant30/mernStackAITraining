@@ -2,7 +2,7 @@
 
 /* Universal Selector */
 
-* { margin: 0; }
+* { margin: 0; padding: 10px;}
 
 
 /* Element Selector */
@@ -54,3 +54,33 @@ input[type="text"], input[type="password"] {
 .child {
   font-size: 2em;
 }
+
+.display {
+    background-color: aquamarine; 
+}
+.display  p{
+  color:#000;
+
+}
+
+/* .display span {
+    background: red;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+ */
+
+ .position {
+    background: gray;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 10px;
+ }
+
+ .position .child {
+  border: 4px solid green;
+  background-color: green;
+ }  
+
