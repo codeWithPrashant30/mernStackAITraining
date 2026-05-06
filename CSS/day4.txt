@@ -1,0 +1,235 @@
+11.Flexbox
+
+Flexbox is a 1-dimensional layout system in CSS used to align and distribute items inside a container.
+
+1. Flex Container Properties
+
+display: flex
+
+Makes container flexible.
+
+flex-direction
+Controls direction of items.
+
+Value	Meaning
+row	Left → Right (default)
+row-reverse	Right → Left
+column	Top → Bottom
+column-reverse	Bottom → Top
+
+
+justify-content
+
+Aligns items horizontally (main axis).
+
+Value	Meaning
+flex-start	Start
+center	Center
+flex-end	End
+space-between	Equal space between
+space-around	Equal space around
+space-evenly	Equal spacing
+
+align-items
+
+Aligns items vertically (cross axis).
+
+Value	Meaning
+stretch	Default
+center	Center
+flex-start	Top
+flex-end	Bottom
+
+flex-wrap
+
+Controls wrapping of items.
+
+Value	Meaning
+nowrap	Single line
+wrap	Move next line
+wrap-reverse	Reverse wrapping
+
+gap
+
+Adds spacing between items.
+
+
+Flex Item Properties
+
+flex-grow
+
+Defines how much item should grow.
+
+flex-shrink
+
+Defines shrinking behavior.
+
+flex-basis
+
+Initial size of item.
+
+.box {
+  flex-basis: 200px;
+}
+
+flex-basis
+
+Initial size of item.
+
+.box {
+  flex-basis: 200px;
+}
+
+
+flex
+
+Shortcut property.
+
+.box {
+  flex: 1;
+}
+
+Equivalent to:
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;
+
+
+align-self
+
+Align single item separately.
+
+.box2 {
+  align-self: flex-end;
+}
+
+12.Grid
+
+
+
+CSS Grid is a 2-dimensional layout system used for creating rows and columns together.
+
+
+Flexbox → works in 1 direction
+Grid → works in rows + columns
+
+2 columns
+Items automatically arranged in rows
+
+
+
+Grid Container Properties
+
+  grid-template-columns: 200px 200px 200px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  fr = fraction of available space
+
+container {
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+
+repeat()
+
+Avoids writing same values again.
+
+.container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+grid-template-columns: 1fr 1fr 1fr;
+
+minmax()
+
+Sets minimum and maximum size.
+
+.container {
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+
+gap
+
+Spacing between rows and columns
+  
+
+Difference between Grid and Flexbox?
+Flexbox → 1D
+Grid → 2D
+
+Q2. What is fr unit?
+
+Fraction of available space.
+
+
+Q3. Difference between auto-fit and auto-fill?
+auto-fit → stretches items
+auto-fill → keeps empty tracks
+
+Grid Item Properties
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+Property	Use
+display:grid	Enable grid
+grid-template-columns	Create columns
+grid-template-rows	Create rows
+gap	Space between items
+repeat()	Repeat values
+minmax()	Min/max size
+grid-column	Column span
+grid-row	Row span
+place-content	Grid alignment
+place-self	Item alignment
+
+
+
+
+
+
+
+
+👉 Best for layout
+
+
+13. Overflow & Z-index
+overflow: hidden;
+overflow: scroll;
+
+14. Responsive Design
+
+
+
+Flexible Units
+
+Unit	Meaning
+%	Percentage
+vw	Viewport width
+vh	Viewport height
+rem	Root font size
+em	Parent font size
+
+
+
+
+
+
+
+
+
+15. Transitions & Animations
+
+
+16. CSS Variables
+
+
+17.Shadows
+
