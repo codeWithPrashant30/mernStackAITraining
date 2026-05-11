@@ -1,0 +1,113 @@
+Day 1 js
+
+---------
+
+JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It allows developers to add dynamic behavior to websites, such as responding to user actions, manipulating the DOM (Document Object Model), and making asynchronous requests to servers.
+
+
+
+
+JavaScript is a high-level, interpreted, single-threaded, prototype-based programming language mainly used to make websites interactive.
+
+
+Why JavaScript Became So Popular?
+Runs directly in browser
+Fast execution
+Easy syntax
+Huge ecosystem
+Works everywhere
+Event-driven
+Async support
+Massive job market
+
+
+Form validation
+Event handling
+DOM manipulation
+Asynchronous programming (e.g., using Promises and async/await)
+JavaScript can be used on both the client-side (in the browser) and the server-side
+
+
+JavaScript Engine
+
+chrome    --- v8
+
+Firefox --- splider monkey
+
+Safari -- JavaScriptCore
+
+
+
+How JavaScript Works Internally
+
+
+Step 1: Parsing 
+
+let a = 10;
+
+engine will create token
+
+
+Step 2: AST (Abstract Syntax Tree)
+
+    VariableDeclaration
+ └── Identifier(a)
+ └── Literal(10)
+
+ Step 3: Compilation
+
+ modern js engines code  conerted into machine optimized code
+
+Step 4: Execution
+
+Code Memory + Call Stack - execute code
+
+////
+
+JavaScript is Single Threaded
+
+
+console.log("A");
+console.log("B");
+console.log("C");
+
+
+Call Stack
+
+
+function one(){
+   two();
+}
+
+function two(){
+   console.log("Hello");
+}
+
+one();
+
+one()
+two()
+console.log()
+
+
+Function calls stack push  and pop
+
+
+Execution Context
+
+Two phase it has
+
+Memory Phase -  var a = undefined;
+
+Code Execution Phase - a = 10;
+
+
+
+// let const var
+
+
+Difference
+Keyword	    Reassign	Redeclare	Scope
+var			yes             yes     function/ global scope
+let			yes             no       block scope
+const		no              no       block
