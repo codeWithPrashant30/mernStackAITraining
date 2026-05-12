@@ -9,29 +9,35 @@ console.log("JS DAY 1");
 
 //var x
 
-// x =10
+// // x =10
+// console.log("t", t)
+
+// let t;
+// // t=10
+// console.log("t", t)
+
+// var x = 10;
+
+
+// {
+//    var x  = 15
+// }
+
+// console.log("x value", x)
+
+
+// console.log("using var x", x)
+
+// let  y = 10
+
+// {
+//   let  y = 16
+// }
+// console.log("using let y", y)
+
+// const z = 10
+
+// console.log("using const z", z)
 
 
 
-var x = 10;
-
-
-{
-   var x  = 15
-}
-
-console.log("x value", x)
-
-
-console.log("using var x", x)
-
-let  y = 10
-
-{
-  let  y = 16
-}
-console.log("using let y", y)
-
-const z = 10
-
-console.log("using const z", z)
